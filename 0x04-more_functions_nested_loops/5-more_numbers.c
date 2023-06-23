@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*more_numbers - prints numbers from (0-14)
+*more_numbers - prints all numbers to 14
 *
 *Return: returns nothing
 */
@@ -20,4 +20,5 @@ _putchar((number2 / 10) + '0');
 _putchar((number2 % 10) + '0');
 }
 _putchar(10);
+}
 }
